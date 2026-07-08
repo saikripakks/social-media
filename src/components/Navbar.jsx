@@ -11,7 +11,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to="/posts" className="nav-brand">
-        <FiHexagon className="login-logo" style={{ fontSize: '1.8rem', margin: 0 }} />
         <span>Kripzart</span>
       </Link>
 

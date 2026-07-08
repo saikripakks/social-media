@@ -18,7 +18,6 @@ const Login = () => {
   return (
     <div className="login-container animate-fade-in">
       <div className="glass-panel login-card">
-        <FiHexagon className="login-logo" />
         <h1 className="title" style={{ marginBottom: '0.5rem', fontSize: '2rem' }}>Welcome Back</h1>
         <p className="subtitle" style={{ marginBottom: '2rem' }}>Enter your details to access your account</p>
         
@@ -38,8 +37,7 @@ const Login = () => {
           <div className="form-group" style={{ textAlign: 'left', marginBottom: '2rem' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <label className="form-label">Password</label>
-              <a href="#" style={{ color: 'var(--primary-color)', fontSize: '0.9rem', textDecoration: 'none' }}>Forgot?</a>
-            </div>
+             </div>
             <input 
               type="password" 
               className="form-input" 
